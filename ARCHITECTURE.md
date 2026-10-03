@@ -40,40 +40,40 @@ The system is designed to showcase India's rich cultural heritage using:
                                  │
                                  │ API Requests
                                  ▼
-              ┌─────────────────────────────────────┐
-              │            BACKEND LAYER            │
-              │                                     │
-              │       Node.js + Python/FastAPI      │
-              │                                     │
-              │ • API Management                    │
-              │ • User Requests                     │
-              │ • Heritage Data                     │
-              │ • AI Services                       │
-              └───────────────┬─────────────────────┘
-                              │
-              ┌───────────────┼────────────────┐
-              │               │                │
-              ▼               ▼                ▼
-     ┌────────────────┐ ┌──────────────┐ ┌─────────────────┐
-     │   PostgreSQL   │ │   PostGIS    │ │   AI / NLP      │
-     │    Database    │ │ Geo Database │ │   LLM Services  │
-     └────────────────┘ └──────────────┘ └─────────────────┘
-                              │                │
-                              │                ▼
-                              │       ┌─────────────────┐
-                              │       │ AI Storytelling │
-                              │       │ & Chatbot       │
-                              │       └─────────────────┘
-                              │
-                              ▼
-                    ┌─────────────────────────┐
-                    │   HERITAGE INFORMATION │
-                    │                         │
-                    │ • Sites                 │
-                    │ • Locations             │
-                    │ • Cultural Stories      │
-                    │ • Traditions            │
-                    └─────────────────────────┘
+               ┌─────────────────────────────────────┐
+               │            BACKEND LAYER            │
+               │                                     │
+               │       Node.js + Python/FastAPI      │
+               │                                     │
+               │ • API Management                    │
+               │ • User Requests                     │
+               │ • Heritage Data                     │
+               │ • AI Services                       │
+               └───────────────┬─────────────────────┘
+                               │
+               ┌───────────────┼────────────────┐
+               │               │                │
+               ▼               ▼                ▼
+      ┌────────────────┐ ┌──────────────┐ ┌─────────────────┐
+      │   PostgreSQL   │ │   PostGIS    │ │   AI / NLP      │
+      │    Database    │ │ Geo Database │ │   LLM Services  │
+      └────────────────┘ └──────────────┘ └─────────────────┘
+                               │                │
+                               │                ▼
+                               │       ┌─────────────────┐
+                               │       │ AI Storytelling │
+                               │       │ & Chatbot       │
+                               │       └─────────────────┘
+                               │
+                               ▼
+                     ┌─────────────────────────┐
+                     │   HERITAGE INFORMATION │
+                     │                         │
+                     │ • Sites                 │
+                     │ • Locations             │
+                     │ • Cultural Stories      │
+                     │ • Traditions            │
+                     └─────────────────────────┘
 ```
 
 ---
